@@ -1,0 +1,26 @@
+.Chessboard {
+  --columns: 8;
+  --rows: 8;
+  --gutter: 2px;
+
+  display: grid;
+  grid-template-columns: repeat(var(--columns), 1fr);
+  grid-column-gap: var(--gutter);
+  grid-row-gap: var(--gutter);
+  width: 75vmin;
+  height: auto;
+  margin: auto;
+}
+
+.Chessboard .square {
+  content: "";
+  aspect-ratio: 1;
+}
+
+.Chessboard .light {
+  background-color: #E6E1C5;
+}
+
+.Chessboard .dark {
+  background-color: #764134;
+}

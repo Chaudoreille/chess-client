@@ -4,7 +4,7 @@ import './Layout.css';
 function Layout() {
   return (
     <>
-      <header></header>
+      <header>Chess</header>
       <main>
         <Outlet/>
       </main>
