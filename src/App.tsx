@@ -1,6 +1,6 @@
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
-import Layout from './components/pages/Layout/Layout'
+import { Layout } from './components/pages/Layout/Layout'
 import { Chessboard } from './components/Chessboard/Chessboard';
 
 function App() {

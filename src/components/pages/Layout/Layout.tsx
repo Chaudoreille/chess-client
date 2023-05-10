@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import './Layout.css';
 
-function Layout() {
+export const Layout = () => {
   return (
     <>
       <header>Chess</header>
@@ -12,5 +12,3 @@ function Layout() {
     </>
   );
 }
-
-export default Layout;
