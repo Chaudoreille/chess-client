@@ -1,11 +1,21 @@
-nav,
+header,
 footer {
-  width: 100%;
+  width: 100vw;
   height: 10vh;
   background-color: black;
+  color: white;
+  font-weight: 600;
+}
+
+header {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 3vh 0;
+  text-transform: uppercase;
 }
 
 main {
-  width: 100%;
+  width: 100vw;
   height: 80vh;
+  padding: 2vh 2vw;
 }
